@@ -1,0 +1,23 @@
+{
+  "posts": [
+    {
+      "title": "a1",
+      "author": "Armen",
+      "id": 1
+    },
+    {
+      "title": "a2",
+      "author": "Armen",
+      "id": 2
+    },
+    {
+      "title": "a3",
+      "author": "Armen",
+      "id": 3
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

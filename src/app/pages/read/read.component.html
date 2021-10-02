@@ -1,0 +1,17 @@
+<!-- <ul>
+    <li *ngFor="let book of books$ | async">
+        {{book.title}}
+        <button (click)="removeBook(book.id)">remove</button>
+        <input type="text" #update>
+        <button (click)="updateBook(update.value, book)">update book</button>
+    </li>
+</ul> -->
+
+<ul>
+    <li *ngFor="let post of posts$ | async">
+        {{post.title}}
+        <button (click)="removePost(post.id)">remove post</button>
+        <input type="text" placeholder="title" #title>
+        <button (click)="updatePost(post, title.value)">update post</button>
+    </li>
+</ul>
